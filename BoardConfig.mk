@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a25x
+DEVICE_PATH := device/samsung/a26xs
 
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/recovery_dtbo
 
-DEVICE_CODENAME := a25x
+DEVICE_CODENAME := a26xs
 
 # Inherit from common tree
 include device/samsung/s5e8825-common/BoardConfigCommon.mk
@@ -26,5 +26,5 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # TWRP specific build flags
-# TW_DEVICE_VERSION := Samsung Galaxy A25 5G
+# TW_DEVICE_VERSION := Samsung Galaxy A26 5G (M)
 TW_FRAMERATE := 120

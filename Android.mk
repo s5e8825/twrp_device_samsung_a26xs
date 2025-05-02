@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter a25x, $(TARGET_DEVICE)),)
+ifneq ($(filter a26xs, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

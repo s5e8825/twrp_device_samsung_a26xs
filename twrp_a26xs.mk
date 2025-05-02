@@ -15,15 +15,15 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := a25x
+PRODUCT_RELEASE_NAME := a26xs
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/a25x/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_a25x
-PRODUCT_DEVICE := a25x
-PRODUCT_MODEL := SM-A256E
+PRODUCT_NAME := twrp_a26xs
+PRODUCT_DEVICE := a26xs
+PRODUCT_MODEL := SM-A266M
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
